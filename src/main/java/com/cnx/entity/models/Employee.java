@@ -13,7 +13,7 @@ import java.io.Serializable;
 @Data
 public class Employee implements Serializable {
     private int id;
-    private String name;
-    private int empAge;
+    private String employeeName;
+    private int employeeAge;
     private String department;
 }
